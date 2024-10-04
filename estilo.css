@@ -1,0 +1,100 @@
+/* Estilos globales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #56bae9;
+    color: #7f21eb;
+}
+
+/* Estilo para la sección hero */
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('imagenes/img.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+/* Estilos personalizados para el texto en la sección hero */
+.hero h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+/* Botón de la hero */
+.hero a.btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+/* Estilo para la sección de nosotros */
+#nosotros img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#nosotros h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+#nosotros p.lead {
+    font-size: 1.2rem;
+    color: #777;
+}
+#nosotros .py-5-bg-light {
+    background-color: aquamarine;
+
+}
+a:link, a:visited {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    
+    
+  }
+  
+ 
+
+/* Estilo para las cards de los servicios */
+#servicios .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+#servicios .card:hover {
+    transform: scale(1.05);
+}
+
+/* Estilo para el formulario de reservas */
+form .form-control {
+    border-radius: 0;
+}
+
+form .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+/* Estilo para la sección de testimonios */
+#testimonios blockquote {
+    background-color: #b30c8e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.kat{
+    font-size: 50px;
+}
